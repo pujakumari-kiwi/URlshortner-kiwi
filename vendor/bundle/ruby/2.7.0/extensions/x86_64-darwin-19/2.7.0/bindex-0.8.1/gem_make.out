@@ -1,0 +1,15 @@
+current directory: /Users/kiwitech/App/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/kiwitech/.rbenv/versions/2.7.1/bin/ruby -I /Users/kiwitech/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20220115-35402-wrmusu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kiwitech/App/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/kiwitech/App/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/kiwitech/App/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20220115-35402-x0jk0d/skiptrace/internal
